@@ -1,0 +1,43 @@
+:root {
+    --corFundo: #d69f08;
+    --corGradient: #997300, #ffc000;
+}
+
+/*font:montserrat;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--corFundo);
+}
+
+img#banner {
+    width: 100%;
+    height: 100%;
+}
+
+img#amostra {
+    width: 100%;
+}
+#ddd{
+    font-size: small;
+}
+#not {
+    font-weight: 700;
+}
+
+legend {
+    font-size: 1em;
+}
+
+div.form-group {
+    margin-bottom: 20px;
+    ;
+}
+
+input#submit, a>button{
+    background-image: linear-gradient(180deg, var(--corGradient));
+}
